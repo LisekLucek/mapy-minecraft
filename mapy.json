@@ -1,0 +1,44 @@
+[
+	{
+		"nazwa": "Kanciasta Kraina - 1 edycja",
+		"nazwaLink": "kanciasta-1",
+		"ikona" : "https://archiwum.lisekpl.net/mapy/kanciasta-1/ikona.png",
+		"wersje":
+		[
+			{
+				"nazwa": "Teren",
+				"nazwaLink": "teren",
+				"maxZoom": 128,
+				"startX": -5,
+				"startY": -892,
+				"pliki": "https://archiwum.lisekpl.net/mapy/kanciasta-1/teren/",
+				"znaczniki":
+				[
+					{
+						"x": -9,
+						"y": -766,
+						"ikona": "https://archiwum.lisekpl.net/mapy/kanciasta-1/znacznik.png",
+						"nazwa": "Spawn"
+					}
+				]
+			},
+			{
+				"nazwa": "Płaska",
+				"nazwaLink": "plaska",
+				"maxZoom": 32,
+				"startX": 0,
+				"startY": 0,
+				"pliki": "https://archiwum.lisekpl.net/mapy/kanciasta-1/plaska/",
+				"znaczniki":
+				[
+					{
+						"x": 2,
+						"y": 130,
+						"ikona": "https://archiwum.lisekpl.net/mapy/kanciasta-1/znacznik.png",
+						"nazwa": "Spawn na płaskiej mapie"
+					}
+				]
+			}
+		]
+	}
+]
