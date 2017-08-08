@@ -1,0 +1,177 @@
+body
+{
+	background: black;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding-top: 95px;
+	cursor: default;
+}
+h1
+{
+	background: #222;
+	margin: 0;
+	padding: 20px;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+	position: fixed;
+	width: 100vw;
+	z-index: 999;
+	top: 0;
+	left: 0;
+}
+h1 span
+{
+	font-size: 20px;
+	vertical-align: bottom;
+}
+.mapa
+{
+	display: inline-block;
+	background: #111;
+	text-align: center;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 280px;
+	vertical-align: top;
+	position: relative;
+}
+.mapa a
+{
+	color: white;
+	text-decoration: none;
+}
+.mapa h2
+{
+	font-size: 20px;
+	padding: 10px 0;
+	font-weight: normal;
+	margin: 0;
+}
+#mapa
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	cursor: -webkit-grab;
+}
+#aktywnaMapa
+{
+	visibility: hidden;
+}
+.przyblizenie
+{
+	position: fixed;
+	top: 83px;
+	left: 5px;
+	background: white;
+	font-size: 20px;
+	border-radius: 10px;
+	text-align: center;
+	border: 1px solid #ccc;
+	z-index: 100;
+	color: black;
+}
+.przyblizenie div
+{
+	padding: 8px;
+	height: 15px;
+	width: 15px;
+	line-height: 0.75;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+.przyblizenie div:first-child
+{
+	color: #ccc;
+	cursor: default;
+}
+.przyblizenie div:last-child
+{
+	border-bottom: none;
+}
+#skala
+{
+	position: fixed;
+	bottom: 5px;
+	left: 5px;
+	color: white;
+	font-size: 20px;
+	text-shadow: 3px 3px 3px black;
+	z-index: 100;
+	pointer-events: none;
+}
+.ladowanie
+{
+	position: fixed;
+	top: 90px;
+	right: 230px;
+	z-index: 100;
+	visibility: hidden;
+	pointer-events: none;
+	background: url("/obrazy/ladowanie.gif");
+	width: 32px;
+	height: 32px;
+}
+.menu
+{
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	right: 0;
+	background: #111;
+	width: 200px;
+	height: 100vh;
+	padding: 90px 10px;
+	text-align: center;
+}
+.menu a
+{
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 1.5;
+}
+.menu h2
+{
+	margin: 10px 0 15px 0;
+}
+noscript
+{
+	text-align: center;
+	display: block;
+}
+noscript h2
+{
+	font-weight: normal;
+}
+noscript a
+{
+	color: #aaf;
+}
+#znaczniki
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	pointer-events: none;
+}
+.znacznik
+{
+	position: absolute;
+	width: 32px;
+	height: 32px;
+}
+.znacznik div
+{
+	width: 100vw;
+	text-align: center;
+	position: relative;
+	left: calc(-50vw + 16px);
+	text-shadow: 2px 2px 2px black;
+}
