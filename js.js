@@ -27,7 +27,7 @@ c.height = window.innerHeight;
 var ctx = c.getContext("2d");
 
 //===== Pobieranie listy map =====//
-$.getJSON("https://archiwum.lisekpl.net/mapy/mapy.json?v=" + new Date().getTime(), function(mapy)
+$.getJSON("/mapy.json?v=" + new Date().getTime(), function(mapy)
 {
 	
 	mapyJson = mapy;
